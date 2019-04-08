@@ -8,7 +8,7 @@ The [rhio-pinmap](https://github.com/Rhomb-io/rhio-pinmap) library is included t
 
 An important part of the SIM868 slave module is power management. By default the modem is turned off, it does not receive current. It is necessary to enable the PWREN and PWRKEY lines in order to use it. This energy control will be highly appreciated by developers working on low power applications.
 
-# Serial Ports
+## Serial Ports
 
 Two UART ports are used, one for debug and one for sending AT commands to the modem. Configuration is included for Arduino One, Mega and Zero.
 
